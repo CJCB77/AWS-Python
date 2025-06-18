@@ -10,4 +10,4 @@ def attach_policy(policy_arn, username):
 
     print(response)
 
-attach_policy("arn:aws:iam::aws:policy/AmazonRDSFullAccess", 'testupdateduser')
+attach_policy("arn", 'testupdateduser')

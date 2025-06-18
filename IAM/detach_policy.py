@@ -10,4 +10,4 @@ def detach_policy(policy_arn, username):
 
     print(response)
 
-detach_policy('arn:aws:iam::aws:policy/AmazonRDSFullAccess', 'testupdateduser')
+detach_policy('arn', 'testupdateduser')

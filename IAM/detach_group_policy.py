@@ -10,4 +10,4 @@ def detach_group_policy(group, policy_arn):
     )
     print(res)
 
-detach_group_policy('RDSAdmins', 'arn:aws:iam::aws:policy/AmazonRDSFullAccess')
+detach_group_policy('RDSAdmins', 'arn:aws')

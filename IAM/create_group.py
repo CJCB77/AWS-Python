@@ -13,4 +13,4 @@ def attach_group_policy(group, policy):
     print(res)
 
 # create_group("RDSAdmins")
-attach_group_policy("RDSAdmins", "arn:aws:iam::aws:policy/AmazonRDSFullAccess")
+attach_group_policy("RDSAdmins", "arn")
